@@ -1,6 +1,6 @@
 [package]
 name = "test-temp-file"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["ohaddahan <ohaddahan@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/ohaddahan/test-temp-file"
