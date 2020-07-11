@@ -6,6 +6,8 @@ edition = "2018"
 repository = "https://github.com/ohaddahan/test-temp-file"
 license = "MIT OR Apache-2.0"
 description = "This crate allows creation and automatic deletion (based on Drop trait) of files"
+include = ["README.md"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
