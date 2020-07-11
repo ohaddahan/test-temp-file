@@ -1,12 +1,12 @@
 [package]
 name = "test-temp-file"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["ohaddahan <ohaddahan@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/ohaddahan/test-temp-file"
 license = "MIT OR Apache-2.0"
 keywords = ["test", "tests", "testing", "temp", "tmp"]
-categories = ["testing", "tests"]
+categories = ["development-tools::testing", "filesystem"]
 description = "This crate allows creation and automatic deletion (based on Drop trait) of files"
 include = ["src/", "README.md"]
 
