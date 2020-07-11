@@ -1,6 +1,6 @@
-(https://crates.io/crates/test-temp-file) ![Rust](https://github.com/ohaddahan/test-temp-file/workflows/Rust/badge.svg)
+![Rust](https://github.com/ohaddahan/test-temp-file/workflows/Rust/badge.svg)
 
-## [Test Temp File]
+## [Test Temp File](https://crates.io/crates/test-temp-file)
 
 
 This crate allows creation and automatic deletion (based on [Drop](https://doc.rust-lang.org/std/ops/trait.Drop.html) trait) of files.
