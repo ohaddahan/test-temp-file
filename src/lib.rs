@@ -44,16 +44,19 @@ impl Read for TestTempFile {
     }
 }
 
-
 impl Seek for TestTempFile {
     fn seek(&mut self, pos: SeekFrom) -> std::io::Result<u64> { self.file.seek(pos) }
 }
 
-
 impl TestTempFile {
+    ///
+    ///  /// # Arguments
+    ///
+    /// * `filename` - A String containing the file name
     ///
     /// # Examples
     /// ```
+    /// use test_temp_file::TestTempFile;
     /// let mut t = TestTempFile::new(String::from("file_name.txt"));
     /// ```
     pub fn new(filename: String) -> TestTempFile {
@@ -84,7 +87,6 @@ impl TestTempFile {
         }
     }
 }
-
 
 
 #[cfg(test)]
