@@ -1,4 +1,4 @@
-## [Test Temp File](https://crates.io/crates/test-temp-file)
+## [Test Temp File](https://crates.io/crates/test-temp-file) ![Rust](https://github.com/ohaddahan/test-temp-file/workflows/Rust/badge.svg)
 
 This crate allows creation and automatic deletion (based on Drop trait) of files.
 
